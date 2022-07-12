@@ -151,7 +151,7 @@ new generate - 비밀번호 입력 - note 알아서 적고 Expiration은 no Expi
 그리고 밑에 repo 체크(권한은 다 체크하고 싶으면 다 체크해도 됨) 그리고 generate<br>
 토큰 나오면 이 토큰을 저장해야함 한번에 저장해야함!<br>
 
-* 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
+* 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
 
 git push -u origin main 치면 창이 하나 뜸 그때 토큰 누르고 아까 발급받은 토큰 입력<br>
 토큰 정보가 맞으면 push가 진행됨.<br>
