@@ -11,14 +11,18 @@ Git &amp; Github 설치 및 사용법
 ---------------------------------------------------------------------------------------
 ### 2. 명령어/문법
 - Git에는 다수의 명령어(status ,branch, add, commit, log, fetch, clone 등등)가 존재한다.
+<br>
 - status : 현재 git의 상태를 보여주는 명령어로 작업 디렉토리나 스테이지의 정보를 보여준다.<br>
 사용 방법 : git status
+<br>
 - add : git에 새로 추가되거나 수정된 파일 또는 폴더들을 git local 저장소에 추가하는 명령어<br>
 git status 명령어를 실행시켰을 때 'untracked file'은 git에서 변경사항을 감지했으나 아직 추가하지 않았다는 의미임(아직 사진이 찍히지 않았다는 뜻)<br>
 사용 방법 : git add "파일 디렉토리 경로" (여기서 add 뒤에 .을 붙이면 모든 변경사항을 추가하겠다는 의미)<br>
-- commit : commit 명령어는 add 명령어로 추가한 사항들을 
+<br>
+- commit : add 명령어로 새롭게 추가한 사항들을 기록하는 명렁어(사진을 찍는다는 뜻)<br>
+사용 방법 : git commit -m "기록하고 싶은 표현"<br>
+특징 : commit이 성공적으로 적용이 되면 working tree is clean 이라는 메세지가 출력된다.
 
-commit 하면  working tree가 clean하다고 나옴<br>
 
 git log하면 commit 내역 나옴(commit의 앞 7자리가 대표 일련번호)<br>
 
