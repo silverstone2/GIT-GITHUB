@@ -216,3 +216,13 @@ fetch진행방법 : git fetch origin
 뜨면 :wq쓰고 엔터하면 됨. 그러면 merge가 됨.
 
 ![최종구조(fetch 후 merge)](https://user-images.githubusercontent.com/107795925/177121487-12e1d833-f070-4681-a733-768acc1320af.PNG)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+git reflog 는 git에서 행한 작업들에 대한 로그를 모두 보여줌(reflog = reference log)
+
+일반적으로 취소를 할때는 git reset 명령어를 사용하는게 맞지만 사용하면 안될 경우도 있다 그 경우는 commit한 것을 이미 github에 올린상태라면 reset하는걸 고려해보아야함(올린걸 clone해서 다른 작업하고 있으면 대참사발생) 이럴 경우에는 취소하는 이력을 따로 commit해주면 된다.
+
+한 줄에 로그 표시하고 싶으면 git log --oneline
+
+reset은 hard, soft, mixed 3가지의 옵션이 있다! 일부 수정만 할거면 mixed untracked file까지 강하게 되돌릴거면 hard 좀 약하게 할거면 soft
