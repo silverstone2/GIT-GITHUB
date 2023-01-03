@@ -10,7 +10,7 @@ Git &amp; Github 설치 및 사용법
   
 ---------------------------------------------------------------------------------------
 ### 2. 명령어/문법
-* Git에는 다수의 명령어(status ,branch, add, commit, log, fetch, clone 등등)가 존재한다.
+* Git에는 다수의 명령어(status ,branch, add, commit, log, fetch, clone 등등)가 존재한다.</br>
 ① **status** : git의 현재 상태를 알려주는 명령어 
 사용 방법 : git status] 
 ② **add** : git에 새로 추가되거나 수정된 파일 또는 폴더들을 git local 저장소에 추가하는 명령어
